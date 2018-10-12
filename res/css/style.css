@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+body,
+html {
+	height: 100%;
+}
+body {
+	background: #f9f9f9;
+}
+p {
+	transition: all 1s ease;
+}
+p::first-letter {
+	text-transform: capitalize;
+	font-size: 1.5em;
+}
+.navbar_fixed {
+	position: fixed !important;
+	z-index: 99;
+	width: 100%;
+	opacity: 0;
+}
+.body {
+	position: relative;
+}
+::-webkit-scrollbar {
+	width: 5px; /* for vertical scrollbars */
+	height: 5px; /* for horizontal scrollbars */
+}
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.5);
+}
+.body_container,
+.second_nav,
+.navbar-fixed {
+	display: none;
+	opacity: 0;
+}
+.dropdown-content {
+	margin-top: 80px !important;
+}
+.height {
+	height: 95vh;
+}
+.height img {
+	margin: auto;
+}
+.foto {
+	/* background: red; */
+	background: url('../img/logo/fondo.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.foto::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0.1) 0%,
+		rgba(255, 255, 255, 0.0.1) 50%,
+		rgba(0, 0, 0, .1) 100%
+	);
+}
+.foto img {
+	z-index: 10;
+}
+.modal_manual {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 9995;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.9);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-title {
+	text-transform: capitalize;
+}
+.modal_manual .card > .card-image {
+	position: absolute;
+	top: -22.25px;
+	left: 5%;
+	width: 20%;
+	z-index: 1;
+}
+.modal_manual .card > .card-content {
+	margin-top: 10%;
+	padding: 10% 5% 5% 5%;
+	overflow: auto;
+	position: relative;
+	z-index: 0;
+	height: 70vh;
+}
+.modal_manual .card > .card-content > .card-title {
+	text-transform: capitalize;
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	font-size: 2.5em;
+	z-index: 1;
+}
+.body_container {
+	position: relative;
+}
+.modal_manual .card > .card-content > .card_reveal {
+	padding-top: 20px;
+	font-size: 2.5em;
+	text-transform: lowercase;
+}
+p.card_reveal_p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nobile', sans-serif;
+}
+p.card_reveal_p::first-letter {
+	text-transform: capitalize;
+	font-size: 1.1em;
+}
+.background {
+	width: 100%;
+	height: 100vh;
+	background: #47a7f5;
+	/* background: linear-gradient(to top,#1abc9c,#3498db,#2980b9); */
+	background: url('/res/img/logo/fondo.jpg');
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.background .card {
+	padding: 15px;
+}
+.img_login {
+	height: 150px !important;
+	width: 150px;
+	object-fit: cover;
+	object-position: center;
+}
+.background .row {
+	margin: 0;
+	padding: 0;
+}
+.background p {
+	margin-left: 15px;
+}
+.post_container {
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.card-panel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.preload {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(180, 180, 180, 0.6);
+	z-index: 2;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}

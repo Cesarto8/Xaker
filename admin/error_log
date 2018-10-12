@@ -1,0 +1,19 @@
+[27-Aug-2018 02:11:36 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 16
+[27-Aug-2018 02:13:03 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 16
+[27-Aug-2018 02:13:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 16
+[27-Aug-2018 02:13:28 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 12
+[27-Aug-2018 02:14:10 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 15
+[27-Aug-2018 02:14:16 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 15
+[27-Aug-2018 02:14:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/xakercom/public_html/views/admin/posts.php on line 15
+[27-Aug-2018 02:15:00 UTC] PHP Notice:  Undefined variable: datas in /home/xakercom/public_html/views/admin/posts.php on line 16
+[27-Aug-2018 02:15:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/xakercom/public_html/views/admin/posts.php on line 16
+[27-Aug-2018 02:16:26 UTC] PHP Notice:  Undefined variable: datas in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:16:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:16:42 UTC] PHP Notice:  Undefined variable: datas in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:16:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:18:02 UTC] PHP Notice:  Undefined variable: datas in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:18:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:18:46 UTC] PHP Notice:  Undefined variable: datas in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:18:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/xakercom/public_html/views/admin/posts.php on line 14
+[27-Aug-2018 02:20:08 UTC] PHP Notice:  Undefined index: id in /home/xakercom/public_html/views/admin/posts.php on line 15
+[27-Aug-2018 02:20:08 UTC] PHP Notice:  Undefined index: id in /home/xakercom/public_html/views/admin/posts.php on line 15
